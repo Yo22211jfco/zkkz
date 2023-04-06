@@ -1,0 +1,126 @@
+--MadebyFantasy
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Fantasy", HidePremium = false, introText = "fantasy", SaveConfig = true, ConfigFolder = "fantasy"})
+
+OrionLib:MakeNotification({
+	Name = "Have fun",
+	Content = "Dont forget to Sub!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+local TutTab = Window:MakeTab({
+	Name = "Fantasy",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = TutTab:AddSection({
+	Name = "fantasy Section"
+})
+
+
+TutTab:AddButton({
+	Name = "Button!",
+	Callback = function(True)
+      		print("Hello world")
+  	end    
+})
+
+TutTab:AddToggle({
+	Name = "Toggle!",
+	Default = false,
+	Callback = function(Value)
+		print("Hey")
+	end    
+})
+
+TutTab:AddColorpicker({
+	Name = "Colorpicker",
+	Default = Color3.fromRGB(255, 0, 0),
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+TutTab:AddSlider({
+	Name = "Slider",
+	Min = 0,
+	Max = 20,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "bananas",
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+
+OrionLib:Init()
+
+
+
+
+OrionLib:MakeNotification({
+	Name = "Have fun",
+	Content = "Fantasy",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+local TutTab = Window:MakeTab({
+	Name = "Pet Simulator x",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = TutTab:AddSection({
+	Name = "fantasy Section"
+})
+
+TutTab:AddButton({
+	Name = "Autofarm Petsimx",
+	Callback = function(False)
+      		print("Fantasy Word")
+--script
+loadstring(game:HttpGet(('https://pastebin.com/raw/qM22wpCJ'),true))()
+
+    end
+})
+
+TutTab:AddButton({
+	Name = "Autofarm 2.0 Petsimx",
+	Callback = function(False)
+      		print("Fantasy Word")
+--script
+loadstring(game:HttpGet(('https://pastebin.com/raw/gBXzt8w3'),true))()
+
+    end
+})
+
+
+
+local TutTab = Window:MakeTab({
+	Name = "Da Hood",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+TutTab:AddButton({
+	Name = "Swagmode",
+	Callback = function(True)
+      		print("Hello world")
+--script
+loadstring(game:HttpGet(('https://pastebin.com/raw/V9D0ESuN'),true))()
+
+    end
+})
+
+
+
+
+OrionLib:Init()
+
